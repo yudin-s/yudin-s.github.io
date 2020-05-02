@@ -1,6 +1,6 @@
 const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
   router: {
-    base: '/nuxt-ghpages-boilerplate/'
+    base: '/'
   }
 } : {}
 
@@ -30,11 +30,20 @@ export default {
   ** Global CSS
   */
   css: [
+    { src: '@assets/css/bootstrap.min.css' },
+    { src: '@assets/css/font-awesome.min.css', },
+
+    { src: '@assets/css/style.css' },
+    { src: '@assets/css/reset.css' },
+    { src: '@assets/css/magnific-popup.css' },
+    { src: '@assets/css/color-1.css' },
   ],
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
+    '@plugins/vue-see-on-github',
+
   ],
   /*
   ** Nuxt.js dev-modules

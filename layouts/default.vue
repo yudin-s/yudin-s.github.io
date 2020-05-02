@@ -1,8 +1,67 @@
 <template>
-  <div>
-    <nuxt />
+  <div id="wrapper">
+    <div class="parallax"> </div>
+
+    <default-layout>
+    <template v-slot:profile>
+      <profile/>
+    </template>
+    <template v-slot:default>
+      <navigation :links="links" />
+      <nuxt />
+    </template>
+    </default-layout>
+
   </div>
 </template>
+
+<script>
+
+  import DefaultLayout from "@/components/Layout/DefaultLayout"
+  import Profile from "@/components/Common/Profile"
+  import Navigation from "@/components/Common/Navigation"
+
+  export default {
+
+    components: {
+      Navigation,
+      Profile,
+      DefaultLayout
+    },
+
+    data(){
+        return {
+          links:[
+            {
+
+              icon: 'fa fa-user',
+              to: '/',
+              title: 'ABOUT',
+
+            },
+            {
+
+              icon: 'fa fa-file-text-o',
+              to: 'resume',
+              title: 'RESUME',
+
+            },
+            {
+
+              icon: 'fa fa-picture-o',
+              to: 'portfolio',
+              title: 'PORTFOLIO',
+            },
+            {
+              icon: 'fa fa-map-marker',
+              to: 'contact',
+              title: 'CONTACT',
+            },
+          ]
+        }
+    }
+  }
+</script>
 
 <style>
 html {
