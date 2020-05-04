@@ -60,7 +60,7 @@
         return {
           jobStory: [
             {
-              'year': '2016 werwer- Present',
+              'year': '2016 - Present',
               'heading': 'Upwork Freelance PHP & JS Developer',
               'description': 'Top Rated Freelancer with technology stack Laravel, Vue.JS, GraphQL, ReactJS. Over 1300+ hours tracked.',
             },
