@@ -59,40 +59,44 @@
       data(){
         return {
           jobStory: [
-
+            {
+              'year': '2016 - Present',
+              'heading': 'Upwork Freelance PHP & JS Developer',
+              'description': 'Top Rated Freelancer with technology stack Laravel, Vue.JS, GraphQL, ReactJS. Over 1300+ hours tracked.',
+            },
             {
               'year': '2018 - 2019',
-              'heading': 'Director of Corporate Technology & Infrastructure - Noxster Company @ Los Angeles, USA',
+              'heading': 'Director of Corporate Technology & Infrastructure — Noxster Company @ Los Angeles, USA',
               'description': 'My key responsibilities: integration new frameworks and progressive web technologies into development process. Technical analysis and risk management mostly priority clients',
             },
             {
               'year': '2017 - 2019',
-              'heading': 'Chief Executive Officer - Blackbox Studio @ Taganrog, Russia',
+              'heading': 'Chief Executive Officer — Blackbox Studio @ Taganrog, Russia',
               'description': 'My key responsibilities: Business Analysis, Strategic Planning. ',
             },
             {
               'year': '2016 - 2017',
-              'heading': 'Chief Technology Officer - BlackBox Studio @ Taganrog, Russia',
+              'heading': 'Chief Technology Officer — BlackBox Studio @ Taganrog, Russia',
               'description': 'My key responsibilities: integration new frameworks and progressive web technologies into development process. Technical analysis and risk management mostly priority clients',
             },
             {
               'year': '2013 - 2016',
-              'heading': 'Senior PHP Developer - BlackBox Studio @ Taganrog, Russia',
+              'heading': 'Senior PHP Developer — BlackBox Studio @ Taganrog, Russia',
               'description': 'Website development based on LAMP Stack. Frameworks: CodeIgnitor, CakePHP & Magento 1.9',
             },
             {
               'year': '2013 - 2014',
-              'heading': 'PHP Middle Developer - armor.mobi',
+              'heading': 'PHP Middle Developer — armor.mobi',
               'description': 'Develop architecture for mobile browser MMORPG. Server configuration (Apache, Nginx, Memcache, PHP 5.3). Highload ready.',
             },
             {
               'year': 'Aug. 2012 - Jan. 2013',
-              'heading': 'Java Junior Developer - Freelance',
-              'description': 'Create client-server Java RESTful GUI application using SWT library and HTMLUnit-based bot',
+              'heading': 'Java Junior Developer — Freelance',
+              'description': 'Create client—server Java RESTful GUI application using SWT library and HTMLUnit—based bot',
             },
             {
               'year': '2010 - oct. 2012',
-              'heading': 'PHP Junior Developer - CheckLinks',
+              'heading': 'PHP Junior Developer — CheckLinks',
               'description': 'Development modules for Drupal 6.20',
             }
           ]

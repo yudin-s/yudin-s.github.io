@@ -13,8 +13,8 @@
             <li>Birthday : <span>7 April 1994</span> </li>
             <li>Job : <span>Freelancer</span> </li>
             <li>GitHub : <span>https://github.com/yudin-s</span> </li>
-            <li>Email : <span>[EMAIL]</span> </li>
-            <li>Skype : <span>[Skype]</span> </li>
+            <li>Email : <a href="mailto:advictoriam2010@protonmail.com"><span>Click!</span></a> </li>
+            <li>Skype : <a href="skype:i.stalinz"><span>i.stalinz</span></a> </li>
           </ul>
         </div> <!-- .col-md-4 .about-info -->
       </div><!-- .col-md-12 .spotted -->
