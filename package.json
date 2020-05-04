@@ -1,7 +1,7 @@
 {
-  "name": "nuxt-ghpages-boilerplate",
+  "name": "Sergei Iudin PHP/JS Developer CV, Resume & Portfolio",
   "version": "1.0.0",
-  "description": "Nuxt.js Boilerplate for GitHub Pages with TravisCI support",
+  "description": "Sergei Iudin PHP/JS Developer CV, Resume & Portfolio",
   "author": "Sergei Iudin",
   "private": true,
   "scripts": {
@@ -14,6 +14,7 @@
     "generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt generate"
   },
   "dependencies": {
+    "@nuxtjs/google-gtag": "^1.0.4",
     "bootstrap": "^4.4.1",
     "nuxt": "^2.0.0",
     "see-on-github-vue": "^1.0.4"
