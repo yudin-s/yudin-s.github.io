@@ -2,5 +2,5 @@
 
 # My own vCard & Portfolio 
 
-[Open website](https://yudin-s.github.io/garment-decor-nuxt/)
+[Open website](https://yudin-s.github.io/)
 
