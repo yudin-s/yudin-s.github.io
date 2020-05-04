@@ -2,7 +2,7 @@
   <ul class="top-menu">
     <li v-for="(link,index) in links" :key="index">
       <nuxt-link :to="link.to">
-        <i :class="link.icon"></i> <span v-html="link.title"/>
+        <i :class="link.icon" exact></i> <span v-html="link.title"/>
       </nuxt-link>
     </li>
   </ul>
@@ -34,7 +34,7 @@
     margin-right: 4px;
   }
 
-  ul.top-menu li .nuxt-link-active{
+  ul.top-menu li .nuxt-link-exact-active{
     border-bottom: 3px solid #ffa60a;
   }
 

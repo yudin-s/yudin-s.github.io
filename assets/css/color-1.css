@@ -102,7 +102,7 @@ a.reply {
   color:#ffa60a !important;
 }
 
-ul.top-menu li.active{
+ul.top-menu li.nuxt-link-exact-active{
   border-bottom: 3px solid #ffa60a;
 }
 

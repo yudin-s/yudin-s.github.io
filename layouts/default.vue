@@ -35,7 +35,7 @@
             {
 
               icon: 'fa fa-user',
-              to: '/',
+              to: {name: 'index'},
               title: 'ABOUT',
 
             },
