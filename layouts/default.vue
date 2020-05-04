@@ -42,19 +42,19 @@
             {
 
               icon: 'fa fa-file-text-o',
-              to: 'resume',
+              to: '/resume',
               title: 'RESUME',
 
             },
             {
 
               icon: 'fa fa-picture-o',
-              to: 'portfolio',
+              to: '/portfolio',
               title: 'PORTFOLIO',
             },
             {
               icon: 'fa fa-map-marker',
-              to: 'contact',
+              to: '/contact',
               title: 'CONTACT',
             },
           ]
