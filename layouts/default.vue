@@ -11,7 +11,7 @@
       <nuxt />
     </template>
     </default-layout>
-
+    <see-on-github linkTo="https://github.com/yudin-s/yudin-s.github.io" />
   </div>
 </template>
 

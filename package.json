@@ -16,14 +16,15 @@
   "dependencies": {
     "@nuxtjs/google-gtag": "^1.0.4",
     "bootstrap": "^4.4.1",
+    "jquery": "^3.5.1",
     "nuxt": "^2.0.0",
-    "see-on-github-vue": "^1.0.4"
+    "see-on-github-vue": "^1.0.8"
   },
   "devDependencies": {
-    "@vue/test-utils": "^1.0.0-beta.27",
+    "@vue/test-utils": "^1.0.0",
     "babel-jest": "^24.1.0",
     "jest": "^24.1.0",
-    "node-sass": "^4.14.0",
+    "node-sass": "^4.14.1",
     "sass-loader": "^8.0.2",
     "vue-jest": "^4.0.0-0"
   }

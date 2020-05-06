@@ -43,7 +43,6 @@ export default {
   */
   plugins: [
     '@plugins/vue-see-on-github',
-
   ],
   /*
   ** Nuxt.js dev-modules
@@ -67,7 +66,7 @@ export default {
         domains:['yudin-s.github.io']
       }
     },
-    debug: true, // enable to track in dev mode
+    debug: false, // enable to track in dev mode
     disableAutoPageTrack: false,
   },
   /*
