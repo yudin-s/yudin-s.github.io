@@ -1,16 +1,20 @@
 export const profile = {
   fullName: 'Sergey Yudin',
   shortName: 'Serge Yudin',
-  role: 'Senior Full-Stack Node.js Developer',
+  role: 'Senior Backend & Frontend Engineer',
   positioning: [
-    'Senior Full-Stack Node.js Developer',
-    'Senior Full-Stack Engineer',
+    'Senior Backend & Frontend Engineer',
+    'Backend & Frontend Engineer',
     'Technical Advisor',
   ],
   about:
-    'Senior full-stack developer and technical advisor with deep JavaScript/TypeScript, Node.js, React, NestJS, GraphQL, and product delivery experience.',
+    'Senior engineer and technical advisor with deep backend, frontend, architecture, and product delivery experience.',
   tagline:
-    'Builds e-commerce platforms, marketplaces, CRM systems, AdTech dashboards, startup products, and AI workflows with architecture-first execution.',
+    'I build and modernize production web applications for marketplaces, CRM systems, e-commerce, internal tools, and product teams.',
+  specialization:
+    'Node.js/NestJS-heavy backend, strong React/Vue frontend, architecture reviews, and delivery planning.',
+  availability:
+    'Open to full-time, contract, advisory, part-time, hourly, and project-based work.',
   phone: '+7 (938) 1426610',
   email: 'advictoriam2010@protonmail.com',
   experienceYears: '16+ years',
@@ -18,25 +22,25 @@ export const profile = {
 
 export const proofItems = [
   {
-    metric: 'Upwork performance',
+    metric: 'Freelance record',
     details: '16+ years in web development, Top Rated Plus, 100% Job Success Score',
   },
   {
-    metric: 'Delivery results',
+    metric: 'Product delivery',
     details:
-      'Speed optimization and development increased sales up to 50%; clients start earning within a week of launch.',
+      'Delivered production systems for e-commerce, booking, CRM, marketplaces, and internal business tools.',
   },
   {
-    metric: 'Scale & reliability',
-    details: 'Websites processing 1000+ active clients per second.',
+    metric: 'Scale experience',
+    details: 'Worked on high-load web systems, infrastructure, performance tuning, and reliability improvements.',
   },
   {
     metric: 'Performance',
-    details: 'Google PageSpeed improved from 10 to 80 after server-side and optimization work.',
+    details: 'Improved PageSpeed and runtime performance through server-side, frontend, and caching work.',
   },
   {
-    metric: 'Freelance scale',
-    details: '3000+ billed hours on Upwork.',
+    metric: 'Open source',
+    details: 'Accepted open-source PRs in NestJS and Tailwind CSS, with links to the changes below.',
   },
 ];
 
@@ -55,82 +59,96 @@ export const experience = [
   {
     period: 'Sep 2024 - Jun 2025',
     title: 'Chief Technology Officer — GGEM',
+    engagement: 'Full-time leadership',
     details:
-      'Led technology strategy, software delivery, and architecture decisions for a product organization, combining CTO-level planning with hands-on engineering guidance.',
+      'Led technology strategy, architecture, and software delivery while staying close to hands-on engineering decisions.',
   },
   {
     period: 'Aug 2023 - Sep 2024',
     title: 'Senior NodeJS Developer — GGEM',
+    engagement: 'Full-time engineering',
     details:
-      'Built backend services with NestJS, GraphQL, Kubernetes, Grafana, and production-grade Node.js practices.',
+      'Built and maintained backend services, GraphQL APIs, infrastructure workflows, and production monitoring.',
   },
   {
     period: 'Jun 2022 - Aug 2023',
     title: 'Senior FullStack Developer — Leroy Merlin',
+    engagement: 'Full-time engineering',
     details:
-      'Delivered full-stack product features with NestJS, Express.js, GraphQL, and modern web development practices.',
+      'Delivered backend and frontend product features for a large retail environment with production delivery standards.',
   },
   {
     period: 'Feb 2021 - Jun 2022',
     title: 'Senior JS FullStack Developer — DataArt',
+    engagement: 'Outstaff',
     details:
-      'Worked as a senior full-stack JavaScript developer across programming, NestJS, and product engineering tasks.',
+      'Worked as an outstaff engineer on full-stack JavaScript projects, combining backend development, frontend implementation, and product engineering.',
   },
   {
     period: 'Oct 2021 - Sep 2022',
     title: 'Senior JS FullStack Developer — Codemotion Ninjas',
+    engagement: 'Outstaff at Lineate',
     details:
-      'Outstaffed at Lineate, handling React frontend, Node.js backend, code reviews, HR technical interviews, and in-house development.',
+      'Outstaffed at Lineate, contributing frontend and backend development, code reviews, technical interviews, and internal tooling.',
   },
   {
     period: 'May 2019 - Apr 2020',
     title: 'Chief Technology Officer — Xrom Consulting Group',
+    engagement: 'Leadership / client delivery',
     details:
-      'Managed technical delivery, project planning, Magento work, and technology decisions for client projects.',
+      'Managed technical delivery, project planning, commerce development, and implementation decisions for client projects.',
   },
   {
     period: '2016 - Present',
     title: 'Upwork Freelance Full-Stack Developer',
+    engagement: 'Parallel freelance / contract',
     details:
-      'Top Rated Plus freelancer delivering React, Vue/Nuxt, Node.js, Laravel, Magento, CRM, booking, marketplace, and e-commerce projects.',
+      'Top Rated Plus freelancer delivering backend, frontend, CRM, booking, marketplace, and e-commerce projects for remote clients.',
   },
   {
     period: '2017 - 2019',
     title: 'Chief Executive Officer — Blackbox Studio',
+    engagement: 'Own studio',
     details:
-      'Owned business analysis, strategic planning, crisis management, negotiations, product ownership, and expert software development.',
+      'Led client work, business analysis, negotiations, product planning, and senior-level software development.',
   },
   {
     period: '2016 - 2017',
     title: 'Chief Technology Officer — BlackBox Studio',
-    details: 'Led technical analysis, project management, architecture planning, and delivery process improvements.',
+    engagement: 'Own studio',
+    details: 'Led technical analysis, architecture planning, project management, and delivery process improvements.',
   },
   {
     period: '2014 - 2016',
     title: 'Senior PHP Programmer — BlackBox Studio',
+    engagement: 'Full-time engineering',
     details:
       'Developed LAMP-based websites and commerce systems with PHP, CodeIgniter, CakePHP, Magento, and related tools.',
   },
   {
     period: 'Aug 2018 - Jan 2019',
     title: 'Director of Corporate Technology & Infrastructure — Noxster',
+    engagement: 'Contract / leadership',
     details:
       'Built nine concurrent projects across three frameworks, with development risk management, technical writing, architecture, and hands-on development.',
   },
   {
     period: '2013 - Feb 2014',
     title: 'PHP Middle Developer — armor.mobi',
+    engagement: 'Full-time engineering',
     details:
       'Designed architecture for a mobile-browser MMORPG, configured Apache, Nginx, Memcache, PHP 5.3, and ran high-load tests.',
   },
   {
     period: 'Aug 2012 - Jan 2013',
     title: 'Java Developer — Freelance',
+    engagement: 'Freelance',
     details: 'Created a client-server Java RESTful application with SWT and an HTMLUnit-based bot.',
   },
   {
     period: '2010 - Oct 2012',
     title: 'PHP Junior Developer — CheckLinks',
+    engagement: 'Early career',
     details: 'Developed modules for Drupal 6 and early web products.',
   },
 ];
@@ -153,8 +171,8 @@ export const projects = [
   {
     name: 'Launchpack',
     description:
-      'Upcoming Product Hunt launch. A product-launch toolkit for makers who need to package positioning, launch assets, and shipping workflows faster.',
-    category: 'Product Hunt / maker tool',
+      'A launch planning tool for preparing product positioning, assets, and release workflows. Planned for Product Hunt.',
+    category: 'Product / maker tool',
     liveUrl: 'https://yudin-s.github.io/launchpack/',
     productHuntUrl: 'https://www.producthunt.com/@sergeyudin',
     repoUrl: 'https://github.com/yudin-s/launchpack',
@@ -163,8 +181,8 @@ export const projects = [
   {
     name: 'PullScope',
     description:
-      'Client-side PR analysis tool: paste a public GitHub pull request, get local risk signals, then optionally run a browser-only AI review with your own model endpoint.',
-    category: 'Developer tools / PR analysis',
+      'Browser-based pull request analysis tool for reviewing public GitHub PRs and spotting risk before merge.',
+    category: 'Developer tool',
     liveUrl: 'https://yudin-s.github.io/pullscope/',
     repoUrl: 'https://github.com/yudin-s/pullscope',
     status: 'New project',
@@ -172,49 +190,141 @@ export const projects = [
   {
     name: 'Lobster',
     description:
-      'Local multi-agent system with orchestration, Docker isolation, persistent memory, and context recovery.',
-    category: 'AI / automation',
+      'Local automation system with multi-agent orchestration, Docker isolation, persistent memory, and context recovery.',
+    category: 'AI automation',
     repoUrl: 'https://github.com/yudin-s/lobster',
   },
   {
     name: 'Uncle Ben',
     description:
-      'Local macOS voice assistant with wake-word activation, speech recognition, Ollama intent parsing, and guarded actions.',
-    category: 'AI / automation',
+      'Local macOS voice assistant with wake-word activation, speech recognition, local intent parsing, and guarded actions.',
+    category: 'AI automation',
     repoUrl: 'https://github.com/yudin-s/uncle-ben',
   },
+];
+
+export const commercialProjects = [
   {
     name: 'GPS / GeoIP dealership CRM',
     description:
-      'Drupal/Nuxt CRM with GeoIP dealer lookup, regional access rules, and custom landing pages.',
+      'CRM with GeoIP dealer lookup, regional access rules, and custom landing pages.',
     category: 'CRM / web app',
+    image: '/images/portfolio-01.png',
+    tags: ['Backend', 'Frontend', 'CMS modernization'],
   },
   {
-    name: 'At-Stamman booking platforms',
+    name: 'At-Stamman booking admin panel',
     description:
-      'Laravel booking systems and admin panels for medical bookings, reporting, PDF/Excel exports, and high-load workflows.',
-    category: 'Booking / backend',
+      'Laravel admin panel for bookings, reporting, PDF/Excel exports, and large-data workflows.',
+    category: 'Booking platform',
+    image: '/images/portfolio-02.png',
+    tags: ['Backend', 'Reporting', 'Admin UI'],
   },
   {
     name: 'GetEnergo marketplace',
-    description: 'Nuxt/Vue marketplace frontend built from Figma with responsive UI and API integration.',
+    description: 'Marketplace frontend built from Figma with responsive UI and API integration.',
     category: 'Marketplace',
+    image: '/images/portfolio-03.png',
+    tags: ['Frontend', 'API integration', 'Responsive UI'],
   },
   {
     name: 'MyVoiceCloud audio startup',
     description:
       'Browser audio recording SaaS with microphone streaming, Laravel, Node.js, and database design.',
     category: 'SaaS / audio',
+    image: '/images/portfolio-04.png',
+    tags: ['SaaS', 'Backend', 'Audio'],
+  },
+  {
+    name: 'At-Stamman online booking platform',
+    description:
+      'High-load medical booking platform delivered under a tight deadline with Wix login integration.',
+    category: 'Booking platform',
+    image: '/images/portfolio-05.png',
+    tags: ['Backend', 'High-load', 'Integration'],
+  },
+  {
+    name: 'Signlabs sticker e-commerce',
+    description:
+      'Sticker and decal designLab e-commerce platform with ordering, tracking, and long-term support.',
+    category: 'E-commerce',
+    image: '/images/portfolio-06.png',
+    tags: ['E-commerce', 'Backend', 'Support'],
+  },
+  {
+    name: 'GarmentDecor frontend',
+    description:
+      'Magento 1.9 storefront redesign implemented with Pug, HTML/CSS, and responsive frontend work.',
+    category: 'Frontend / e-commerce',
+    image: '/images/portfolio-07.png',
+    tags: ['Frontend', 'Magento', 'Responsive UI'],
   },
   {
     name: 'VisualVision document platform',
     description:
       'Document review and editing platform with PDF review server, IDML support, and role management.',
     category: 'Document workflow',
+    image: '/images/portfolio-08.png',
+    tags: ['Web app', 'Backend', 'Role management'],
+  },
+  {
+    name: 'Omron DeltaTau corporate site',
+    description:
+      'Drupal 7 corporate website rebuild with catalog, search, and content management modules.',
+    category: 'CMS modernization',
+    image: '/images/portfolio-09.png',
+    tags: ['CMS', 'Search', 'Catalog'],
+  },
+  {
+    name: 'At-Stamman event booking platform',
+    description:
+      'Laravel booking system for medical events with backend, responsive UI, and high-load readiness.',
+    category: 'Booking platform',
+    image: '/images/portfolio-10.png',
+    tags: ['Backend', 'Frontend', 'High-load'],
+  },
+  {
+    name: 'Ronix wakeboards store',
+    description:
+      'Magento store upgrade from 1.8 to 1.9.3 with security patches and release support.',
+    category: 'E-commerce',
+    image: '/images/portfolio-11.png',
+    tags: ['Magento', 'Security', 'Release support'],
+  },
+  {
+    name: 'Silk & Beach e-commerce',
+    description: 'Magento-based e-commerce project with storefront implementation and production support.',
+    category: 'E-commerce',
+    image: '/images/portfolio-12.png',
+    tags: ['Magento', 'Frontend', 'Production support'],
+  },
+  {
+    name: 'Laravel e-commerce recovery',
+    description:
+      'Laravel e-commerce rescue: bug fixing, feature delivery, and stabilization after poor handoff.',
+    category: 'E-commerce recovery',
+    image: '/images/portfolio-13.png',
+    tags: ['Laravel', 'Stabilization', 'Feature delivery'],
+  },
+  {
+    name: 'CakePHP component development',
+    description:
+      'CakePHP components for infinite scroll, video uploading, and social-media processing workflows.',
+    category: 'CMS & legacy',
+    image: '/images/portfolio-14.png',
+    tags: ['CakePHP', 'Backend', 'Components'],
   },
 ];
 
 export const skills = {
+  capabilities: [
+    'Backend & Frontend',
+    'Architecture & code review',
+    'Product delivery',
+    'Performance & reliability',
+    'Legacy modernization',
+    'AI automation',
+  ],
   frontend: [
     'React',
     'Vue',
@@ -307,9 +417,9 @@ export const openSource = [
 
 export const productHunt = {
   profile: 'https://www.producthunt.com/@sergeyudin',
-  role: 'Senior Full-Stack Engineer',
+  role: 'Senior Backend & Frontend Engineer',
   about:
-    'full-stack maker, freelancer, and product builder with 16 years in web development, focused on shipping useful things fast.',
+    'Product Hunt profile for maker-side projects and product launches, including Launchpack.',
   keywords: ['web apps', 'automation tools', 'AI workflows', 'real problems'],
   badge: 'Tastemaker',
   launches: [
