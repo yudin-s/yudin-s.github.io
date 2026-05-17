@@ -1,7 +1,7 @@
 {
   "name": "yudin-s-portfolio",
   "version": "2.0.0",
-  "description": "Senior Full-Stack Engineer portfolio for Serge Yudin: React, NestJS, Tailwind CSS, AI agents, product systems, and technical advisory work.",
+  "description": "Serge Yudin portfolio site with selected client work, resume notes, and React/Vite source.",
   "author": "Serge Yudin",
   "private": true,
   "type": "module",

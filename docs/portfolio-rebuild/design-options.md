@@ -1,6 +1,6 @@
 # Design Options
 
-Selected direction: hybrid of Product OS, Open Source Ledger, and one Agent Lab signature interaction.
+Selected direction: hybrid of Product OS, Open Source Ledger, and one workflow map interaction.
 
 ## Option A - Product OS
 
@@ -12,14 +12,14 @@ Quiet, premium, dashboard-like personal operating system.
 - Best for: strongest trust signal for senior consulting, architecture, audits, delivery leadership.
 - Risk: can feel too restrained if we do not add one expressive signature element.
 
-## Option B - Agent Lab
+## Option B - Workflow Map
 
-AI-agent engineering lab with local systems, orchestration, and automation as the story.
+Engineering workflow view with projects, tools, and delivery context as the story.
 
 - First screen: interactive node graph of projects, skills, and outcomes.
-- Visual language: technical lab surface, command palette, graph links, code fragments, lightweight sprite/agent motifs.
+- Visual language: technical workbench, command palette, graph links, code fragments, and lightweight project markers.
 - Motion: animated graph, command palette search, project cards that unfold into architecture notes.
-- Best for: positioning around AI agents, local LLM workflows, orchestration, and modern engineering.
+- Best for: showing automation, architecture work, and modern delivery without turning the portfolio into a niche demo.
 - Risk: can become too niche if Upwork/e-commerce/client delivery proof is pushed too low.
 
 ## Option C - Open Source Ledger
@@ -44,7 +44,7 @@ More expressive, portfolio-first, with cinematic project browsing.
 
 ## My Recommendation
 
-Start from Option A or C, then borrow one signature interaction from Option B. That gives the site a 2026 feel while keeping the core promise serious: senior full-stack engineering, architecture, delivery, and open-source credibility.
+Start from Option A or C, then borrow one signature interaction from Option B. That keeps the core promise serious: senior full-stack engineering, architecture, delivery, and open-source credibility.
 
 ## Final Direction
 
@@ -52,5 +52,5 @@ Build the site as a senior engineering product surface:
 
 - Product OS foundation: dashboard-like hero, crisp grid, proof chips, availability, and selected outcomes.
 - Open Source Ledger proof: NestJS, Tailwind CSS, GitHub, Product Hunt, Upwork, and contribution evidence.
-- Agent Lab signature block: an interactive graph/sprite field that connects AI agents, automation, product delivery, and engineering systems.
+- Workflow map signature block: an interactive graph that connects projects, tools, client domains, and engineering systems.
 - Motion style: fast, restrained, useful transitions with reduced-motion support.
