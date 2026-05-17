@@ -5,10 +5,10 @@ export const profile = {
   positioning: [
     'Senior Backend & Frontend Engineer',
     'Backend & Frontend Engineer',
-    'Technical Advisor',
+    'Full-Stack Engineer',
   ],
   about:
-    'Senior engineer and technical advisor with deep backend, frontend, architecture, and product delivery experience.',
+    'Senior engineer with deep backend, frontend, architecture, and product delivery experience.',
   tagline:
     'I build and modernize production web applications for marketplaces, CRM systems, e-commerce, internal tools, and product teams.',
   specialization:
@@ -40,7 +40,7 @@ export const proofItems = [
   },
   {
     metric: 'Open source',
-    details: 'Accepted open-source PRs in NestJS and Tailwind CSS, with links to the changes below.',
+    details: 'Selected accepted PRs in NestJS and Tailwind CSS, with links to the changes below.',
   },
 ];
 
@@ -50,7 +50,6 @@ export const links = [
   { label: 'Portfolio repository', url: 'https://github.com/yudin-s/yudin-s.github.io' },
   { label: 'LinkedIn', url: 'https://www.linkedin.com/in/sergeyudin/' },
   { label: 'Upwork', url: 'https://www.upwork.com/o/profiles/users/~011535c13b3445c54c/' },
-  { label: 'Product Hunt', url: 'https://www.producthunt.com/@sergeyudin' },
   { label: 'Twitter/X', url: 'https://twitter.com/serge_yudin_' },
   { label: 'Facebook', url: 'https://www.facebook.com/sergeblackbox' },
 ];
@@ -171,12 +170,11 @@ export const projects = [
   {
     name: 'Launchpack',
     description:
-      'A launch planning tool for preparing product positioning, assets, and release workflows. Planned for Product Hunt.',
+      'Small launch planning tool for turning rough product notes into positioning, assets, and release checklists.',
     category: 'Product / maker tool',
     liveUrl: 'https://yudin-s.github.io/launchpack/',
-    productHuntUrl: 'https://www.producthunt.com/@sergeyudin',
     repoUrl: 'https://github.com/yudin-s/launchpack',
-    status: 'Product Hunt launch planned',
+    status: 'Side project',
   },
   {
     name: 'PullScope',
@@ -191,14 +189,14 @@ export const projects = [
     name: 'Lobster',
     description:
       'Local automation system with multi-agent orchestration, Docker isolation, persistent memory, and context recovery.',
-    category: 'AI automation',
+    category: 'Local engineering tool',
     repoUrl: 'https://github.com/yudin-s/lobster',
   },
   {
     name: 'Uncle Ben',
     description:
       'Local macOS voice assistant with wake-word activation, speech recognition, local intent parsing, and guarded actions.',
-    category: 'AI automation',
+    category: 'Local engineering tool',
     repoUrl: 'https://github.com/yudin-s/uncle-ben',
   },
 ];
@@ -323,7 +321,7 @@ export const skills = {
     'Product delivery',
     'Performance & reliability',
     'Legacy modernization',
-    'AI automation',
+    'Local tooling',
   ],
   frontend: [
     'React',
@@ -352,7 +350,7 @@ export const skills = {
     'Nginx',
     'Apache',
   ],
-  aiAutomation: [
+  localTooling: [
     'LLM agents',
     'Ollama',
     'local AI tools',
@@ -369,7 +367,7 @@ export const skills = {
     'AdTech dashboards',
     'fintech',
     'blockchain',
-    'AI startups',
+    'startup products',
   ],
   seniorSignals: [
     'architecture',
@@ -419,13 +417,13 @@ export const productHunt = {
   profile: 'https://www.producthunt.com/@sergeyudin',
   role: 'Senior Backend & Frontend Engineer',
   about:
-    'Product Hunt profile for maker-side projects and product launches, including Launchpack.',
-  keywords: ['web apps', 'automation tools', 'AI workflows', 'real problems'],
+    'Maker profile for small side projects and product experiments.',
+  keywords: ['web apps', 'developer tools', 'product workflows', 'real problems'],
   badge: 'Tastemaker',
   launches: [
     {
       name: 'Launchpack',
-      status: 'Upcoming Product Hunt launch',
+      status: 'Side project',
       url: 'https://www.producthunt.com/@sergeyudin',
     },
   ],

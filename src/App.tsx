@@ -38,12 +38,12 @@ import {
 } from './data/portfolio';
 
 const navItems = [
-  { label: 'Signals', href: '#proof' },
+  { label: 'Profile', href: '#proof' },
   { label: 'Experience', href: '#resume' },
   { label: 'Work', href: '#work' },
   { label: 'Open Source', href: '#open-source' },
   { label: 'Capabilities', href: '#stack' },
-  { label: 'Automation', href: '#agent-lab' },
+  { label: 'Tools', href: '#agent-lab' },
   { label: 'Contact', href: '#contact' },
 ];
 
@@ -424,7 +424,7 @@ function App() {
                 <span className="status-chip muted">Backend & Frontend</span>
               </div>
               <h1 className="max-w-5xl text-5xl font-semibold leading-[0.95] tracking-normal text-white sm:text-6xl lg:text-7xl">
-                Senior Backend & Frontend Engineer for production web products.
+                Senior Backend & Frontend Engineer with 16+ years in web development.
               </h1>
               <p className="mt-7 max-w-2xl text-lg leading-8 text-zinc-300 sm:text-xl">
                 {profile.tagline} I work across architecture, backend systems, frontend interfaces,
@@ -476,7 +476,7 @@ function App() {
           </div>
         </section>
 
-        <Section id="proof" eyebrow="Key Signals" title="A concise professional snapshot.">
+        <Section id="proof" eyebrow="Profile" title="Senior engineering background in production web products.">
           <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-5">
             {proofItems.map((item, index) => (
               <motion.article
@@ -590,7 +590,7 @@ function App() {
           </div>
         </Section>
 
-        <Section id="open-source" eyebrow="Open Source" title="Accepted open-source PRs in NestJS and Tailwind CSS.">
+        <Section id="open-source" eyebrow="Open Source" title="Selected accepted PRs in NestJS and Tailwind CSS.">
           <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-5">
             {openSource.map((item) => (
               <article className="ledger-card" key={`${item.repository}-${item.pullRequest}`}>
@@ -607,7 +607,7 @@ function App() {
             ))}
             <article className="ledger-card accent-card">
               <Rocket size={22} />
-              <h3>Product Hunt</h3>
+              <h3>Maker Profile</h3>
               <p>{productHunt.about}</p>
               <div className="launch-list">
                 {productHunt.launches.map((launch) => (
@@ -640,15 +640,14 @@ function App() {
           </div>
         </Section>
 
-        <Section id="agent-lab" eyebrow="AI Automation" title="Local automation and AI-assisted engineering work.">
+        <Section id="agent-lab" eyebrow="Tools" title="Local tooling and engineering experiments.">
           <div className="grid gap-6 lg:grid-cols-[0.9fr_1.1fr]">
             <div className="lab-copy">
               <Blocks size={24} />
               <h3>{activeNode}</h3>
               <p>
                 Recent side projects explore local agents, voice workflows, PR analysis, and
-                automation around engineering delivery. This is an additional specialization, not
-                the main CV headline.
+                delivery tooling. This is additional engineering context, not the main CV headline.
               </p>
               <div className="mt-6 flex flex-wrap gap-2">
                 {skills.seniorSignals.map((item) => (
